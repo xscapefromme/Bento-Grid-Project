@@ -306,38 +306,6 @@
 }
 
 
-/* For Mobile Responsiveness */
-
-
-
-/* @media (max-width: 375px) {
-    .bento-grid {
-        grid-template-columns: repeat(1, 1fr);
-        gap: 1.5rem;
-        padding: 0.1rem;
-    }
-    
- .card-2 {
-        grid-row: 1 / 3; 
-        grid-column: 1 / 3;
-    }
-
-    .card-1 {
-        grid-row: 3 / 4;
-        grid-column: 1 / 3;
-    }
-   
-    .card-3,
-    .card-4,
-    .card-5,
-    .card-6,
-    .card-7,
-    .card-8 {
-        grid-column: span 1;
-        width: 100%;
-    }
-}
- */
 /* Foooter */
 
 .attribution {
@@ -346,6 +314,17 @@
     bottom: 0;
     width: 100%;
 } 
+a {
+    text-decoration: none;
+    transition: all .3s ease;
+}
+.attribution a:hover {
+    display: inline-block;
+    opacity: 0.8;
+    transform: scale(1.3);
+    
+    padding-left: 0.1rem;
+}
 
 
 
